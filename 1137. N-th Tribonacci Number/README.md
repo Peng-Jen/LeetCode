@@ -12,6 +12,13 @@ Note that the special cases in this problem are
 - `n = 2`
 
 Just return `prev_3[n]` to get the result for given special `n`.
+
 ## Complexity
 - Time: `O(n)`
 - Space: `O(1)`
+
+## Result
+- Runtimes: 32 ms 
+  > Beats `71.71%`
+- Memory: 13.8 MB
+  > Beats `95.87%`
