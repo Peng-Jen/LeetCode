@@ -3,12 +3,13 @@
 ## Explanation
 ### Reverse
 1. Construct a list `result = [[1]]`.
-2. Say the `i-th` row of the pascal's triangle is `(1,...,1)`. The `(i+1)-th` row of the pascal's triangle is `(1,...,1,0) + (0,1,...,1)`. (The second term is the reverse of the first term)
+2. Say the `i-th` row of the pascal's triangle is `(1,...,1)`. The `(i+1)-th` row of the pascal's triangle is `(1,...,1,0) + (0,1,...,1)` (The second term is the reverse of the first term).
 3. Loop `numRows - 1` times to get the result list.
 
 ### Map (Recommended)
 1. Same as `Reverse` method but **shorter lines** and **pythonic**.
-2. Notice that any row of a pascal's triangle **must be palindrome**. Simply make two list for computing the `(i+1)-th` row by `i-th row + [0]` and `[0] + i-th row`.
+2. Notice that any row of a pascal's triangle **must be palindrome**.  
+Simply make two list for computing the `(i+1)-th` row by `i-th row + [0]` and `[0] + i-th row`.
 
 ## Complexity
 ### Reverse
