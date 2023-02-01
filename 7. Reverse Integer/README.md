@@ -12,7 +12,7 @@
 ### Math-cpp (Recommended)
 1. If `x < 0`, `is_negative = True`.
 2. Construct two variables `result = 0, p = x`.
-3. Since `INT_MIN` is in valid input for `abs()`, check whether `x = INT_MIN` first.
+3. Since `INT_MIN` is invalid input for `abs()`, check whether `x = INT_MIN` first.
 - If `x = INT_MIN`, return `0`. It will be overflow since `|x| = INT_MAX + 1 > INT_MAX`
 4. The main process is to make `result = |x| in reverse`.  
 For every loop, we expected to let `result = 10 * result + p % 10` and then let `p = p / 10`.
