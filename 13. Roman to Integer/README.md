@@ -5,7 +5,7 @@
 2. For every index in `s`,
 - `result += table[s[index]]` if `table[s[index]] >= table[s[index + 1]]` or `index = len(s) - 1`
 - `result -= table[s[index]]` if `table[s[index]] < table[s[index + 1]]`
-3. Get the result by returning `result`
+3. Get the result by returning `result`.
 
 ## Complexity
 - Time: `O(n)`
