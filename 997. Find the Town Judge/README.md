@@ -8,8 +8,8 @@
 
 ## Complexity
 - Time: `O(n+T)`
-  - n = num of people
-  - T = len(trust)
+  - `n = num of people`
+  - `T = len(trust)`
 - Space:`O(n)`
 
 ## Result
