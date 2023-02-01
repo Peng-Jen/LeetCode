@@ -9,7 +9,7 @@
 2. Construct two variables `result = 0`, `p = x`.
 3. The main process is to make `result = x in reverse` without string method.
 4. Get the result by checking whether `result = x`.
-### String
+### String (Recommended)
 1. If `x < 0`, return `False`.
 2. Construct `str_x = str(x)`
 3. To check whether `str_x[index] = str_x[~index]`, return `False` if not.
