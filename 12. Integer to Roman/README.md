@@ -9,7 +9,8 @@
 ### Loops (Recommended)
 1. Construct a dictionary `table` for **special integers** in Roman numeral.
 > For the digits `1`, `4`, `5` and `9` are "special".
-2. Construct a list `sort_key = sorted(table.keys(), reverse = True)`. `sort_key = [1000, 900, 500, ..., 1]`.
+2. Construct a list `sort_key = sorted(table.keys(), reverse = True)`. 
+> `sort_key = [1000, 900, 500, ..., 1]`.
 3. For each `val` in `sort_key`, while `val <= num`, `result += table[val]` and `num -= val`.
 4. After every `val` is considered, get the result by returning `result`.
 
