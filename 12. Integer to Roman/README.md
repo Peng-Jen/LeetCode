@@ -19,11 +19,16 @@ This method is more **expandable** later on.
 ## Complexity
 ### Decimal
 - Time: `O(1)`
-- Space: `O(1)`
+- Space: `O(l)`
+> In general, 
+> - Time: `O(logn)`, there will be `logn + 1` terms for all the digits
+> - Space: `O(logn)`, there will be `logn + 1` lists for all the digits
 ### Loops
 - Time: `O(1)`
 - Space: `O(1)`
-
+> In general, 
+> - Time: `O(logn * loglogn)`, the length of `sort_key` is `O(logn)`, to sort `sort_key` taking `O(logn * loglogn)` times
+> - Space: `O(logn)`, the length of `sort_key` is `O(logn)`
 ## Result
 ### Decimal
 - Runtimes: 47 ms
