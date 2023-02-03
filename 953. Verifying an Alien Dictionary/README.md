@@ -33,7 +33,13 @@ Each tuple contains the `table[char]` for `char` in `word`.
 - Memory: 13.9 MB
 > Beats `77.53%`
 ### Tuple Comparion
+#### v1
 - Runtimes: 36 ms
 > Beats `81.81%`
+- Memory: 14.6 MB
+> Beats `31.45%`
+#### v2
+- Runtimes: 40 ms
+> Beats `62.64%`
 - Memory: 14.6 MB
 > Beats `31.45%`
