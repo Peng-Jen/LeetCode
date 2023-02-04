@@ -22,7 +22,7 @@
 
 This method costs less memory than `Number` because `int` data type is more memory consuming.
 
-### List-slicing
+### List-slicing (Recommended)
 1. Same as `Boolean` method, but the 4-th step uses list-slicing in python.
 
 This method run much more faster but memory consuming for the slicing list is a copy of original list.
