@@ -8,7 +8,7 @@
     - If `e = val`, remove `e` from `nums` and set `couter += 1`.
     - If `e != val`, set `index += 1`.
 3. Return the result `length - counter`
-### Switch to the end
+### Switch to the end (Recommended)
 1. Construct variables `left = 0` and `right = len(nums) - 1`.
 2. While `left <= right`,
     - If `nums[left] = val`, switch the value of `nums[left]` and `nums[right]` and set `right -= 1`.
