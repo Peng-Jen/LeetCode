@@ -25,7 +25,7 @@
 > The complexity of `pop(index)` is `O(n)`
 - Space: `O(1)`
 ### Switch to the end
-- Time: `O(n^2)`
+- Time: `O(n)`
 - Space: `O(1)`
 
 ## Result
