@@ -20,19 +20,19 @@ For every loop, we expected to let `result = 10 * result + p % 10` and then let 
 - If `result + p % 10 ` will be overflow, return `0`.
 5. Get the result by returning `result * (1 - 2 * is_negative)` (The second term is in `[1, -1]`, which show the sign for any given number).
 ## Complexity
-### Math-python
+### Math - py
 - Time: `O(n)`
 - Space: `O(1)`
-### Math-cpp
+### Math - cpp
 - Time: `O(n)`
 - Space: `O(1)`
 ## Result
-### Math-py
+### Math - py
 - Runtimes: 35 ms
 > Beats `72.32%`
 - Memory: 13.7 MB
 > Beats `99.95%`
-### Math-cpp
+### Math - cpp
 - Runtimes: 3 ms
 > Beats `60.27%`
 - Memory: 5.9 MB
