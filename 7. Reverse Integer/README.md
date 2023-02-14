@@ -20,10 +20,10 @@ For every loop, we expected to let `result = 10 * result + p % 10` and then let 
 - If `result + p % 10 ` will be overflow, return `0`.
 5. Get the result by returning `result * (1 - 2 * is_negative)` (The second term is in `[1, -1]`, which show the sign for any given number).
 ## Complexity
-### Math-
+### Math-python
 - Time: `O(n)`
 - Space: `O(1)`
-### Math-
+### Math-cpp
 - Time: `O(n)`
 - Space: `O(1)`
 ## Result
